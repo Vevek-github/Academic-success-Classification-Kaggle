@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: Kaggle_acad_vevek_HERE
+Version: 0.0.1
+Summary: Kaggle competition to predict the academic success rate
+Home-page: https://github.com/Vevek-github/Academic-success-Classification-Kaggle
+Author: Vevek
+Author-email: vevekkottapally123@gmail.com
+Project-URL: Homepage, https://github.com/Vevek-github/Academic-success-Classification-Kaggle
+Project-URL: Issues, https://github.com/Vevek-github/Academic-success-Classification-Kaggle/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Requires-Dist: xgboost
+Requires-Dist: joblib
+Requires-Dist: chardet
+
+# Academic-success-Classification-Kaggle
+ The goal of this competition is to predict academic risk of students in higher education.

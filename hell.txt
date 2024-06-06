@@ -1,0 +1,4 @@
+1. Feature engineering
+2. ML algo 
+3. Ensemble 
+4. validation framework

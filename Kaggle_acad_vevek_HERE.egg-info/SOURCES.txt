@@ -1,0 +1,7 @@
+README.md
+setup.py
+Kaggle_acad_vevek_HERE.egg-info/PKG-INFO
+Kaggle_acad_vevek_HERE.egg-info/SOURCES.txt
+Kaggle_acad_vevek_HERE.egg-info/dependency_links.txt
+Kaggle_acad_vevek_HERE.egg-info/requires.txt
+Kaggle_acad_vevek_HERE.egg-info/top_level.txt
