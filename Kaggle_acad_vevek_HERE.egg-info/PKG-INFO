@@ -20,6 +20,7 @@ Requires-Dist: scikit-learn
 Requires-Dist: xgboost
 Requires-Dist: joblib
 Requires-Dist: chardet
+Requires-Dist: xgboost
 
 # Academic-success-Classification-Kaggle
  The goal of this competition is to predict academic risk of students in higher education.
