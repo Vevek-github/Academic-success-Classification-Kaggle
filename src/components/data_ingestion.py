@@ -1,9 +1,25 @@
-import os ,sys
+import sys
+import os
+
+# Find the directory containing the current script
+current_dir = os.path.dirname(os.path.abspath(__file__))
+# Move up two levels to the main folder
+main_folder = os.path.dirname(current_dir)
+# Add the main folder to the Python path
+sys.path.append(main_folder)
+
+# Now you can import pipeline_exception.py
+from..exception import CustomException
+
+
+
+
 import pandas as pd
 from logger import logging
 from exception import CustomException
 from dataclasses import dataclass
 from sklearn.model_selection import train_test_split
+
 
 @dataclass                                                          # Decorator  
 class data_ingestion_config():

@@ -8,13 +8,18 @@ def get_requirements(file_path: str) -> List[str]:
 
     
     requirements = [i.strip() for i in requirements if i.strip()]
-    requirements= [i.replace("\ufeff","") for i in requirements]
-    hypen_e_dot = "-e."
-    if hypen_e_dot in requirements:
-        requirements.remove(hypen_e_dot)
-    print(requirements)
-    return requirements
+    requirements = [i.replace("\ufeff", "") for i in requirements]
 
+    hypen_e_dot = "-e"
+    cleaned_requirements = []
+    for r in requirements:
+        if r.__contains__("-"):
+            continue
+        else: 
+            cleaned_requirements.append(r)
+
+    print(cleaned_requirements)
+    return cleaned_requirements
 setup(
     name="Kaggle_acad_vevek_HERE",
     version="0.0.1",
